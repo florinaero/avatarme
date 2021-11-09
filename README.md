@@ -21,3 +21,7 @@ gravatar account attached.
 * http://golang.org/pkg/image/
 * http://en.wikipedia.org/wiki/Identicon
 * http://haacked.com/archive/2007/01/22/Identicons_as_Visual_Fingerprints.aspx/
+
+## Notes
+
+1. Current implementation generates only the number of squares that corresponds number of bytes of each encryption(24 bytes for sha256)
